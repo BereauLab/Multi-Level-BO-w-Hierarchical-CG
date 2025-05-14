@@ -1,0 +1,20 @@
+#include "martini3.ff/martini_mod_v1.itp"
+#include "martini3.ff/martini_solvents.itp"
+#include "martini3.ff/martini_ions.itp"
+#include "martini3.ff/martini_phospholipids.itp"
+#include "martini3.ff/martini_sterols.itp"
+
+[ system ]
+; name
+INSANE! Membrane UpperLeaflet>M3.DPPC:M2.DIPC:M3.CHOL=7.0:4.7:5.0 LowerLeaflet>M3.DPPC:M2.DIPC:M3.CHOL=7.0:4.7:5.0
+
+
+[ molecules ]
+; name  number
+DPPC            26
+DIPC            18
+CHOL            19
+DPPC            26
+DIPC            18
+CHOL            19
+W             2052

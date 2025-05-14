@@ -1,0 +1,1100 @@
+[
+  [
+    {
+      "name": "Q+",
+      "size": 0,
+      "id": 0,
+      "charge_type": 2,
+      "oco_w_tfe": -17.04
+    },
+    {
+      "name": "Q-",
+      "size": 0,
+      "id": 0,
+      "charge_type": 0,
+      "oco_w_tfe": -17.04
+    },
+    {
+      "name": "P",
+      "size": 0,
+      "id": 1,
+      "charge_type": 1,
+      "oco_w_tfe": -6.1
+    },
+    {
+      "name": "N",
+      "size": 0,
+      "id": 2,
+      "charge_type": 1,
+      "oco_w_tfe": 2.76667
+    },
+    {
+      "name": "C",
+      "size": 0,
+      "id": 3,
+      "charge_type": 1,
+      "oco_w_tfe": 13.18
+    },
+    {
+      "name": "SQ+",
+      "size": 1,
+      "id": 0,
+      "charge_type": 2,
+      "oco_w_tfe": -15.86
+    },
+    {
+      "name": "SQ-",
+      "size": 1,
+      "id": 0,
+      "charge_type": 0,
+      "oco_w_tfe": -15.86
+    },
+    {
+      "name": "SP",
+      "size": 1,
+      "id": 1,
+      "charge_type": 1,
+      "oco_w_tfe": -8.9
+    },
+    {
+      "name": "SN",
+      "size": 1,
+      "id": 2,
+      "charge_type": 1,
+      "oco_w_tfe": -0.8
+    },
+    {
+      "name": "SC",
+      "size": 1,
+      "id": 3,
+      "charge_type": 1,
+      "oco_w_tfe": 8.22
+    },
+    {
+      "name": "TQ+",
+      "size": 2,
+      "id": 0,
+      "charge_type": 2,
+      "oco_w_tfe": -16.14
+    },
+    {
+      "name": "TQ-",
+      "size": 2,
+      "id": 0,
+      "charge_type": 0,
+      "oco_w_tfe": -16.14
+    },
+    {
+      "name": "TP",
+      "size": 2,
+      "id": 1,
+      "charge_type": 1,
+      "oco_w_tfe": -11.31667
+    },
+    {
+      "name": "TN",
+      "size": 2,
+      "id": 2,
+      "charge_type": 1,
+      "oco_w_tfe": -2.4
+    },
+    {
+      "name": "TC",
+      "size": 2,
+      "id": 3,
+      "charge_type": 1,
+      "oco_w_tfe": 6.19
+    }
+  ],
+  [
+    {
+      "name": "Q2+",
+      "size": 0,
+      "id": 0,
+      "charge_type": 2,
+      "oco_w_tfe": -19.73333
+    },
+    {
+      "name": "Q2-",
+      "size": 0,
+      "id": 0,
+      "charge_type": 0,
+      "oco_w_tfe": -19.73333
+    },
+    {
+      "name": "Q1+",
+      "size": 0,
+      "id": 1,
+      "charge_type": 2,
+      "oco_w_tfe": -13.0
+    },
+    {
+      "name": "Q1-",
+      "size": 0,
+      "id": 1,
+      "charge_type": 0,
+      "oco_w_tfe": -13.0
+    },
+    {
+      "name": "P3",
+      "size": 0,
+      "id": 2,
+      "charge_type": 1,
+      "oco_w_tfe": -9.15
+    },
+    {
+      "name": "P2",
+      "size": 0,
+      "id": 3,
+      "charge_type": 1,
+      "oco_w_tfe": -6.25
+    },
+    {
+      "name": "P1",
+      "size": 0,
+      "id": 4,
+      "charge_type": 1,
+      "oco_w_tfe": -2.9
+    },
+    {
+      "name": "N3",
+      "size": 0,
+      "id": 5,
+      "charge_type": 1,
+      "oco_w_tfe": -0.55
+    },
+    {
+      "name": "N2",
+      "size": 0,
+      "id": 6,
+      "charge_type": 1,
+      "oco_w_tfe": 2.0
+    },
+    {
+      "name": "N1",
+      "size": 0,
+      "id": 7,
+      "charge_type": 1,
+      "oco_w_tfe": 6.85
+    },
+    {
+      "name": "C3",
+      "size": 0,
+      "id": 8,
+      "charge_type": 1,
+      "oco_w_tfe": 10.65
+    },
+    {
+      "name": "C2",
+      "size": 0,
+      "id": 9,
+      "charge_type": 1,
+      "oco_w_tfe": 13.6
+    },
+    {
+      "name": "C1",
+      "size": 0,
+      "id": 10,
+      "charge_type": 1,
+      "oco_w_tfe": 16.85
+    },
+    {
+      "name": "X2",
+      "size": 0,
+      "id": 11,
+      "charge_type": 1,
+      "oco_w_tfe": 11.3
+    },
+    {
+      "name": "X1",
+      "size": 0,
+      "id": 12,
+      "charge_type": 1,
+      "oco_w_tfe": 13.5
+    },
+    {
+      "name": "SQ2+",
+      "size": 1,
+      "id": 0,
+      "charge_type": 2,
+      "oco_w_tfe": -18.13333
+    },
+    {
+      "name": "SQ2-",
+      "size": 1,
+      "id": 0,
+      "charge_type": 0,
+      "oco_w_tfe": -18.13333
+    },
+    {
+      "name": "SQ1+",
+      "size": 1,
+      "id": 1,
+      "charge_type": 2,
+      "oco_w_tfe": -12.45
+    },
+    {
+      "name": "SQ1-",
+      "size": 1,
+      "id": 1,
+      "charge_type": 0,
+      "oco_w_tfe": -12.45
+    },
+    {
+      "name": "SP3",
+      "size": 1,
+      "id": 2,
+      "charge_type": 1,
+      "oco_w_tfe": -11.9
+    },
+    {
+      "name": "SP2",
+      "size": 1,
+      "id": 3,
+      "charge_type": 1,
+      "oco_w_tfe": -8.75
+    },
+    {
+      "name": "SP1",
+      "size": 1,
+      "id": 4,
+      "charge_type": 1,
+      "oco_w_tfe": -6.05
+    },
+    {
+      "name": "SN3",
+      "size": 1,
+      "id": 5,
+      "charge_type": 1,
+      "oco_w_tfe": -3.9
+    },
+    {
+      "name": "SN2",
+      "size": 1,
+      "id": 6,
+      "charge_type": 1,
+      "oco_w_tfe": -1.35
+    },
+    {
+      "name": "SN1",
+      "size": 1,
+      "id": 7,
+      "charge_type": 1,
+      "oco_w_tfe": 2.85
+    },
+    {
+      "name": "SC3",
+      "size": 1,
+      "id": 8,
+      "charge_type": 1,
+      "oco_w_tfe": 5.8
+    },
+    {
+      "name": "SC2",
+      "size": 1,
+      "id": 9,
+      "charge_type": 1,
+      "oco_w_tfe": 8.8
+    },
+    {
+      "name": "SC1",
+      "size": 1,
+      "id": 10,
+      "charge_type": 1,
+      "oco_w_tfe": 12.05
+    },
+    {
+      "name": "SX2",
+      "size": 1,
+      "id": 11,
+      "charge_type": 1,
+      "oco_w_tfe": 6.15
+    },
+    {
+      "name": "SX1",
+      "size": 1,
+      "id": 12,
+      "charge_type": 1,
+      "oco_w_tfe": 8.3
+    },
+    {
+      "name": "TQ2+",
+      "size": 2,
+      "id": 0,
+      "charge_type": 2,
+      "oco_w_tfe": -17.33333
+    },
+    {
+      "name": "TQ2-",
+      "size": 2,
+      "id": 0,
+      "charge_type": 0,
+      "oco_w_tfe": -17.33333
+    },
+    {
+      "name": "TQ1+",
+      "size": 2,
+      "id": 1,
+      "charge_type": 2,
+      "oco_w_tfe": -14.35
+    },
+    {
+      "name": "TQ1-",
+      "size": 2,
+      "id": 1,
+      "charge_type": 0,
+      "oco_w_tfe": -14.35
+    },
+    {
+      "name": "TP3",
+      "size": 2,
+      "id": 2,
+      "charge_type": 1,
+      "oco_w_tfe": -15.0
+    },
+    {
+      "name": "TP2",
+      "size": 2,
+      "id": 3,
+      "charge_type": 1,
+      "oco_w_tfe": -10.95
+    },
+    {
+      "name": "TP1",
+      "size": 2,
+      "id": 4,
+      "charge_type": 1,
+      "oco_w_tfe": -8.0
+    },
+    {
+      "name": "TN3",
+      "size": 2,
+      "id": 5,
+      "charge_type": 1,
+      "oco_w_tfe": -5.5
+    },
+    {
+      "name": "TN2",
+      "size": 2,
+      "id": 6,
+      "charge_type": 1,
+      "oco_w_tfe": -3.0
+    },
+    {
+      "name": "TN1",
+      "size": 2,
+      "id": 7,
+      "charge_type": 1,
+      "oco_w_tfe": 1.3
+    },
+    {
+      "name": "TC3",
+      "size": 2,
+      "id": 8,
+      "charge_type": 1,
+      "oco_w_tfe": 4.05
+    },
+    {
+      "name": "TC2",
+      "size": 2,
+      "id": 9,
+      "charge_type": 1,
+      "oco_w_tfe": 6.55
+    },
+    {
+      "name": "TC1",
+      "size": 2,
+      "id": 10,
+      "charge_type": 1,
+      "oco_w_tfe": 9.9
+    },
+    {
+      "name": "TX2",
+      "size": 2,
+      "id": 11,
+      "charge_type": 1,
+      "oco_w_tfe": 4.05
+    },
+    {
+      "name": "TX1",
+      "size": 2,
+      "id": 12,
+      "charge_type": 1,
+      "oco_w_tfe": 6.4
+    }
+  ],
+  [
+    {
+      "name": "Q5+",
+      "size": 0,
+      "id": 0,
+      "charge_type": 2,
+      "oco_w_tfe": -23.0
+    },
+    {
+      "name": "Q5-",
+      "size": 0,
+      "id": 0,
+      "charge_type": 0,
+      "oco_w_tfe": -23.0
+    },
+    {
+      "name": "Q4+",
+      "size": 0,
+      "id": 1,
+      "charge_type": 2,
+      "oco_w_tfe": -18.8
+    },
+    {
+      "name": "Q4-",
+      "size": 0,
+      "id": 1,
+      "charge_type": 0,
+      "oco_w_tfe": -18.8
+    },
+    {
+      "name": "Q3+",
+      "size": 0,
+      "id": 2,
+      "charge_type": 2,
+      "oco_w_tfe": -17.4
+    },
+    {
+      "name": "Q3-",
+      "size": 0,
+      "id": 2,
+      "charge_type": 0,
+      "oco_w_tfe": -17.4
+    },
+    {
+      "name": "Q2+",
+      "size": 0,
+      "id": 3,
+      "charge_type": 2,
+      "oco_w_tfe": -15.1
+    },
+    {
+      "name": "Q2-",
+      "size": 0,
+      "id": 3,
+      "charge_type": 0,
+      "oco_w_tfe": -15.1
+    },
+    {
+      "name": "Q1+",
+      "size": 0,
+      "id": 4,
+      "charge_type": 2,
+      "oco_w_tfe": -10.9
+    },
+    {
+      "name": "Q1-",
+      "size": 0,
+      "id": 4,
+      "charge_type": 0,
+      "oco_w_tfe": -10.9
+    },
+    {
+      "name": "P6",
+      "size": 0,
+      "id": 5,
+      "charge_type": 1,
+      "oco_w_tfe": -9.2
+    },
+    {
+      "name": "P5",
+      "size": 0,
+      "id": 6,
+      "charge_type": 1,
+      "oco_w_tfe": -9.1
+    },
+    {
+      "name": "P4",
+      "size": 0,
+      "id": 7,
+      "charge_type": 1,
+      "oco_w_tfe": -7.4
+    },
+    {
+      "name": "P3",
+      "size": 0,
+      "id": 8,
+      "charge_type": 1,
+      "oco_w_tfe": -5.1
+    },
+    {
+      "name": "P2",
+      "size": 0,
+      "id": 9,
+      "charge_type": 1,
+      "oco_w_tfe": -3.8
+    },
+    {
+      "name": "P1",
+      "size": 0,
+      "id": 10,
+      "charge_type": 1,
+      "oco_w_tfe": -2.0
+    },
+    {
+      "name": "N6",
+      "size": 0,
+      "id": 11,
+      "charge_type": 1,
+      "oco_w_tfe": -1.1
+    },
+    {
+      "name": "N5",
+      "size": 0,
+      "id": 12,
+      "charge_type": 1,
+      "oco_w_tfe": 0.0
+    },
+    {
+      "name": "N4",
+      "size": 0,
+      "id": 13,
+      "charge_type": 1,
+      "oco_w_tfe": 2.2
+    },
+    {
+      "name": "N3",
+      "size": 0,
+      "id": 14,
+      "charge_type": 1,
+      "oco_w_tfe": 1.8
+    },
+    {
+      "name": "N2",
+      "size": 0,
+      "id": 15,
+      "charge_type": 1,
+      "oco_w_tfe": 5.6
+    },
+    {
+      "name": "N1",
+      "size": 0,
+      "id": 16,
+      "charge_type": 1,
+      "oco_w_tfe": 8.1
+    },
+    {
+      "name": "C6",
+      "size": 0,
+      "id": 17,
+      "charge_type": 1,
+      "oco_w_tfe": 10.1
+    },
+    {
+      "name": "C5",
+      "size": 0,
+      "id": 18,
+      "charge_type": 1,
+      "oco_w_tfe": 11.2
+    },
+    {
+      "name": "C4",
+      "size": 0,
+      "id": 19,
+      "charge_type": 1,
+      "oco_w_tfe": 13.4
+    },
+    {
+      "name": "C3",
+      "size": 0,
+      "id": 20,
+      "charge_type": 1,
+      "oco_w_tfe": 13.8
+    },
+    {
+      "name": "C2",
+      "size": 0,
+      "id": 21,
+      "charge_type": 1,
+      "oco_w_tfe": 14.8
+    },
+    {
+      "name": "C1",
+      "size": 0,
+      "id": 22,
+      "charge_type": 1,
+      "oco_w_tfe": 18.9
+    },
+    {
+      "name": "X4",
+      "size": 0,
+      "id": 23,
+      "charge_type": 1,
+      "oco_w_tfe": 8.7
+    },
+    {
+      "name": "X3",
+      "size": 0,
+      "id": 24,
+      "charge_type": 1,
+      "oco_w_tfe": 13.9
+    },
+    {
+      "name": "X2",
+      "size": 0,
+      "id": 25,
+      "charge_type": 1,
+      "oco_w_tfe": 12.7
+    },
+    {
+      "name": "X1",
+      "size": 0,
+      "id": 26,
+      "charge_type": 1,
+      "oco_w_tfe": 14.3
+    },
+    {
+      "name": "SQ5+",
+      "size": 1,
+      "id": 0,
+      "charge_type": 2,
+      "oco_w_tfe": -18.2
+    },
+    {
+      "name": "SQ5-",
+      "size": 1,
+      "id": 0,
+      "charge_type": 0,
+      "oco_w_tfe": -18.2
+    },
+    {
+      "name": "SQ4+",
+      "size": 1,
+      "id": 1,
+      "charge_type": 2,
+      "oco_w_tfe": -18.2
+    },
+    {
+      "name": "SQ4-",
+      "size": 1,
+      "id": 1,
+      "charge_type": 0,
+      "oco_w_tfe": -18.2
+    },
+    {
+      "name": "SQ3+",
+      "size": 1,
+      "id": 2,
+      "charge_type": 2,
+      "oco_w_tfe": -18.0
+    },
+    {
+      "name": "SQ3-",
+      "size": 1,
+      "id": 2,
+      "charge_type": 0,
+      "oco_w_tfe": -18.0
+    },
+    {
+      "name": "SQ2+",
+      "size": 1,
+      "id": 3,
+      "charge_type": 2,
+      "oco_w_tfe": -14.3
+    },
+    {
+      "name": "SQ2-",
+      "size": 1,
+      "id": 3,
+      "charge_type": 0,
+      "oco_w_tfe": -14.3
+    },
+    {
+      "name": "SQ1+",
+      "size": 1,
+      "id": 4,
+      "charge_type": 2,
+      "oco_w_tfe": -10.6
+    },
+    {
+      "name": "SQ1-",
+      "size": 1,
+      "id": 4,
+      "charge_type": 0,
+      "oco_w_tfe": -10.6
+    },
+    {
+      "name": "SP6",
+      "size": 1,
+      "id": 5,
+      "charge_type": 1,
+      "oco_w_tfe": -12.0
+    },
+    {
+      "name": "SP5",
+      "size": 1,
+      "id": 6,
+      "charge_type": 1,
+      "oco_w_tfe": -11.8
+    },
+    {
+      "name": "SP4",
+      "size": 1,
+      "id": 7,
+      "charge_type": 1,
+      "oco_w_tfe": -9.8
+    },
+    {
+      "name": "SP3",
+      "size": 1,
+      "id": 8,
+      "charge_type": 1,
+      "oco_w_tfe": -7.7
+    },
+    {
+      "name": "SP2",
+      "size": 1,
+      "id": 9,
+      "charge_type": 1,
+      "oco_w_tfe": -6.9
+    },
+    {
+      "name": "SP1",
+      "size": 1,
+      "id": 10,
+      "charge_type": 1,
+      "oco_w_tfe": -5.2
+    },
+    {
+      "name": "SN6",
+      "size": 1,
+      "id": 11,
+      "charge_type": 1,
+      "oco_w_tfe": -4.2
+    },
+    {
+      "name": "SN5",
+      "size": 1,
+      "id": 12,
+      "charge_type": 1,
+      "oco_w_tfe": -3.6
+    },
+    {
+      "name": "SN4",
+      "size": 1,
+      "id": 13,
+      "charge_type": 1,
+      "oco_w_tfe": -0.9
+    },
+    {
+      "name": "SN3",
+      "size": 1,
+      "id": 14,
+      "charge_type": 1,
+      "oco_w_tfe": -1.8
+    },
+    {
+      "name": "SN2",
+      "size": 1,
+      "id": 15,
+      "charge_type": 1,
+      "oco_w_tfe": 2.1
+    },
+    {
+      "name": "SN1",
+      "size": 1,
+      "id": 16,
+      "charge_type": 1,
+      "oco_w_tfe": 3.6
+    },
+    {
+      "name": "SC6",
+      "size": 1,
+      "id": 17,
+      "charge_type": 1,
+      "oco_w_tfe": 5.3
+    },
+    {
+      "name": "SC5",
+      "size": 1,
+      "id": 18,
+      "charge_type": 1,
+      "oco_w_tfe": 6.3
+    },
+    {
+      "name": "SC4",
+      "size": 1,
+      "id": 19,
+      "charge_type": 1,
+      "oco_w_tfe": 8.4
+    },
+    {
+      "name": "SC3",
+      "size": 1,
+      "id": 20,
+      "charge_type": 1,
+      "oco_w_tfe": 9.2
+    },
+    {
+      "name": "SC2",
+      "size": 1,
+      "id": 21,
+      "charge_type": 1,
+      "oco_w_tfe": 9.9
+    },
+    {
+      "name": "SC1",
+      "size": 1,
+      "id": 22,
+      "charge_type": 1,
+      "oco_w_tfe": 14.2
+    },
+    {
+      "name": "SX4",
+      "size": 1,
+      "id": 23,
+      "charge_type": 1,
+      "oco_w_tfe": 4.3
+    },
+    {
+      "name": "SX3",
+      "size": 1,
+      "id": 24,
+      "charge_type": 1,
+      "oco_w_tfe": 8.0
+    },
+    {
+      "name": "SX2",
+      "size": 1,
+      "id": 25,
+      "charge_type": 1,
+      "oco_w_tfe": 7.2
+    },
+    {
+      "name": "SX1",
+      "size": 1,
+      "id": 26,
+      "charge_type": 1,
+      "oco_w_tfe": 9.4
+    },
+    {
+      "name": "TQ5+",
+      "size": 2,
+      "id": 0,
+      "charge_type": 2,
+      "oco_w_tfe": -17.0
+    },
+    {
+      "name": "TQ5-",
+      "size": 2,
+      "id": 0,
+      "charge_type": 0,
+      "oco_w_tfe": -17.0
+    },
+    {
+      "name": "TQ4+",
+      "size": 2,
+      "id": 1,
+      "charge_type": 2,
+      "oco_w_tfe": -16.3
+    },
+    {
+      "name": "TQ4-",
+      "size": 2,
+      "id": 1,
+      "charge_type": 0,
+      "oco_w_tfe": -16.3
+    },
+    {
+      "name": "TQ3+",
+      "size": 2,
+      "id": 2,
+      "charge_type": 2,
+      "oco_w_tfe": -18.7
+    },
+    {
+      "name": "TQ3-",
+      "size": 2,
+      "id": 2,
+      "charge_type": 0,
+      "oco_w_tfe": -18.7
+    },
+    {
+      "name": "TQ2+",
+      "size": 2,
+      "id": 3,
+      "charge_type": 2,
+      "oco_w_tfe": -14.5
+    },
+    {
+      "name": "TQ2-",
+      "size": 2,
+      "id": 3,
+      "charge_type": 0,
+      "oco_w_tfe": -14.5
+    },
+    {
+      "name": "TQ1+",
+      "size": 2,
+      "id": 4,
+      "charge_type": 2,
+      "oco_w_tfe": -14.2
+    },
+    {
+      "name": "TQ1-",
+      "size": 2,
+      "id": 4,
+      "charge_type": 0,
+      "oco_w_tfe": -14.2
+    },
+    {
+      "name": "TP6",
+      "size": 2,
+      "id": 5,
+      "charge_type": 1,
+      "oco_w_tfe": -14.8
+    },
+    {
+      "name": "TP5",
+      "size": 2,
+      "id": 6,
+      "charge_type": 1,
+      "oco_w_tfe": -15.2
+    },
+    {
+      "name": "TP4",
+      "size": 2,
+      "id": 7,
+      "charge_type": 1,
+      "oco_w_tfe": -12.1
+    },
+    {
+      "name": "TP3",
+      "size": 2,
+      "id": 8,
+      "charge_type": 1,
+      "oco_w_tfe": -9.8
+    },
+    {
+      "name": "TP2",
+      "size": 2,
+      "id": 9,
+      "charge_type": 1,
+      "oco_w_tfe": -8.8
+    },
+    {
+      "name": "TP1",
+      "size": 2,
+      "id": 10,
+      "charge_type": 1,
+      "oco_w_tfe": -7.2
+    },
+    {
+      "name": "TN6",
+      "size": 2,
+      "id": 11,
+      "charge_type": 1,
+      "oco_w_tfe": -6.1
+    },
+    {
+      "name": "TN5",
+      "size": 2,
+      "id": 12,
+      "charge_type": 1,
+      "oco_w_tfe": -4.9
+    },
+    {
+      "name": "TN4",
+      "size": 2,
+      "id": 13,
+      "charge_type": 1,
+      "oco_w_tfe": -2.9
+    },
+    {
+      "name": "TN3",
+      "size": 2,
+      "id": 14,
+      "charge_type": 1,
+      "oco_w_tfe": -3.1
+    },
+    {
+      "name": "TN2",
+      "size": 2,
+      "id": 15,
+      "charge_type": 1,
+      "oco_w_tfe": 0.3
+    },
+    {
+      "name": "TN1",
+      "size": 2,
+      "id": 16,
+      "charge_type": 1,
+      "oco_w_tfe": 2.3
+    },
+    {
+      "name": "TC6",
+      "size": 2,
+      "id": 17,
+      "charge_type": 1,
+      "oco_w_tfe": 3.6
+    },
+    {
+      "name": "TC5",
+      "size": 2,
+      "id": 18,
+      "charge_type": 1,
+      "oco_w_tfe": 4.5
+    },
+    {
+      "name": "TC4",
+      "size": 2,
+      "id": 19,
+      "charge_type": 1,
+      "oco_w_tfe": 6.4
+    },
+    {
+      "name": "TC3",
+      "size": 2,
+      "id": 20,
+      "charge_type": 1,
+      "oco_w_tfe": 6.7
+    },
+    {
+      "name": "TC2",
+      "size": 2,
+      "id": 21,
+      "charge_type": 1,
+      "oco_w_tfe": 7.8
+    },
+    {
+      "name": "TC1",
+      "size": 2,
+      "id": 22,
+      "charge_type": 1,
+      "oco_w_tfe": 12.0
+    },
+    {
+      "name": "TX4",
+      "size": 2,
+      "id": 23,
+      "charge_type": 1,
+      "oco_w_tfe": 2.7
+    },
+    {
+      "name": "TX3",
+      "size": 2,
+      "id": 24,
+      "charge_type": 1,
+      "oco_w_tfe": 5.4
+    },
+    {
+      "name": "TX2",
+      "size": 2,
+      "id": 25,
+      "charge_type": 1,
+      "oco_w_tfe": 5.2
+    },
+    {
+      "name": "TX1",
+      "size": 2,
+      "id": 26,
+      "charge_type": 1,
+      "oco_w_tfe": 7.6
+    }
+  ]
+]

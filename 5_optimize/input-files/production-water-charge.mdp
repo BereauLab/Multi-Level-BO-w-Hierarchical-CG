@@ -1,0 +1,55 @@
+; General setup
+integrator               = sd
+dt                       = 0.02
+nsteps                   = 400000
+comm-mode                = None
+; Output
+nstxout                  = 0
+nstvout                  = 0
+nstfout                  = 0
+nstlog                   = 3000
+nstenergy                = 3000
+nstxout-compressed       = 3000
+; Non-bonded interactions
+verlet-buffer-tolerance  = -1
+nstlist                  = 40
+rlist                    = 1.4
+coulombtype              = Reaction-Field
+rcoulomb                 = 1.2
+epsilon-r                = 15
+epsilon-rf               = 0
+vdwtype                  = Cut-off
+vdw-modifier             = Potential-shift
+rvdw                     = 1.2
+periodic-molecules       = no
+; Temperature control
+tau-t                    = 2.0 2.0
+ref-t                    = 305 305
+tc-grps                  = Lig Other
+; Pressure control
+pcoupl                   = c-rescale
+pcoupltype               = isotropic
+tau-p                    = 4.0
+ref-p                    = 1.0
+compressibility          = 4.5e-5
+nstpcouple               = 10
+; Constraints
+continuation             = yes
+; Boundary conditions
+pbc                      = xyz
+; Constraints
+lincs-order              = 6
+; Free energy calculation
+free-energy              = yes
+couple-moltype           = SC1SC1SC1TQ5+
+nstdhdl                  = 10
+sc-alpha                 = 0.5
+sc-power                 = 1
+sc-sigma                 = 0.3
+couple-intramol          = no
+couple-lambda0           = vdw-q
+couple-lambda1           = none
+init-lambda-state        = 35
+vdw-lambdas              = 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.04 0.08 0.12 0.16 0.20 0.24 0.28 0.32 0.36 0.40 0.44 0.48 0.52 0.56 0.60 0.64 0.68 0.72 0.76 0.80 0.84 0.88 0.92 0.96 1.00
+coul-lambdas             = 0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00
+calc-lambda-neighbors    = -1

@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "CheSpEx"
+authors = [
+    {name = "Luis Walter", email = "walter@thphys.uni-heidelberg.de"},
+]
+description = ""
+readme = "README.md"
+version = "0.0.1"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "scikit-learn",
+    "gpytorch",
+    "networkx",
+    "torch",
+    "matplotlib",
+    "prettypyplot",
+]
+
+[tool.setuptools]
+packages = [
+    "chespex"
+]
+
+[project.scripts]
+chespex-queue-simulator = "chespex.simulation:run_simulations_from_queue"
+
+[tool.pylint.'MESSAGES CONTROL']
+disable = [
+    "arguments-differ",
+    "too-many-arguments",
+    "too-many-locals",
+    "too-many-instance-attributes",
+]

@@ -1,0 +1,16 @@
+#include "martini3.ff/martini_mod_v1.itp"
+#include "martini3.ff/martini_solvents.itp"
+#include "martini3.ff/martini_ions.itp"
+#include "martini3.ff/martini_phospholipids.itp"
+#include "martini3.ff/martini_sterols.itp"
+
+[ system ]
+; name
+INSANE! Membrane UpperLeaflet>M2.DIPC=1 LowerLeaflet>M2.DIPC=1
+
+
+[ molecules ]
+; name  number
+DIPC            64
+DIPC            64
+W             2370

@@ -1,0 +1,6 @@
+.vscode
+.pytest_cache
+.ipynb_checkpoints
+CheSpEx.egg-info
+__pycache__
+*.so

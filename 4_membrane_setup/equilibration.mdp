@@ -1,0 +1,39 @@
+; General setup
+integrator               = md
+dt                       = 0.01
+nsteps                   = 150000
+; Output
+nstxout                  = 0
+nstvout                  = 0
+nstfout                  = 0
+nstlog                   = 3000
+nstenergy                = 3000
+nstxout-compressed       = 3000
+; Non-bonded interactions
+verlet-buffer-tolerance  = -1
+rlist                    = 1.4
+nstlist                  = 50
+coulombtype              = PME
+rcoulomb                 = 1.2
+fourierspacing           = 0.2
+epsilon-r                = 15
+vdwtype                  = cutoff  
+vdw-modifier             = Potential-shift
+rvdw                     = 1.2
+periodic-molecules       = no
+; Temperature control
+tcoupl                   = v-rescale
+tau-t                    = 1.0 1.0
+ref-t                    = 305 305
+tc-grps                  = membrane water
+; Pressure control
+pcoupl                   = c-rescale
+pcoupltype               = semiisotropic
+tau-p                    = 12.0
+ref-p                    = 1.0 1.0
+compressibility          = 3e-4 3e-4
+; Boundary conditions
+pbc                      = xyz
+; Initial velocities
+gen-vel                  = yes
+gen-temp                 = 305

@@ -1,0 +1,11 @@
+#include "martini3.ff/martini_mod_v1.itp"
+#include "martini3.ff/martini_solvents.itp"
+#include "martini3.ff/martini_ions.itp"
+
+[ system ]
+; name
+WATER
+
+[ molecules ]
+; name  number
+W 400

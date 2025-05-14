@@ -1,0 +1,14 @@
+integrator                   = steep 
+dt                           = 0.02 
+nsteps                       = 10000
+nstxout                      = 0 
+nstvout                      = 0
+nstlog                       = 0 
+nstxout-compressed           = 0 
+coulombtype                  = PME
+fourierspacing               = 0.2
+rcoulomb                     = 1.5
+epsilon_r                    = 15
+vdw_type                     = cutoff  
+vdw-modifier                 = Potential-shift-verlet
+rvdw                         = 1.5

@@ -1,0 +1,64 @@
+; General setup
+integrator               = sd
+dt                       = 0.01
+nsteps                   = 40000
+comm-mode                = None
+; Output
+nstxout                  = 0
+nstvout                  = 0
+nstfout                  = 0
+nstlog                   = 3000
+nstenergy                = 3000
+nstxout-compressed       = 3000
+; Non-bonded interactions
+verlet-buffer-tolerance  = -1
+nstlist                  = 40
+rlist                    = 1.4
+coulombtype              = Reaction-Field
+rcoulomb                 = 1.2
+epsilon-r                = 15
+epsilon-rf               = 0
+vdwtype                  = Cut-off
+vdw-modifier             = Potential-shift
+rvdw                     = 1.2
+periodic-molecules       = no
+; Temperature control
+tau-t                    = 2.0 2.0 2.0
+ref-t                    = 305 305 305
+tc-grps                  = Lig Membrane Other
+; Pressure control
+pcoupl                   = c-rescale
+pcoupltype               = semiisotropic
+tau-p                    = 4.0
+ref-p                    = 1.0 1.0 
+compressibility          = 3e-4 3e-4
+nstpcouple               = 10
+refcoord-scaling         = com
+; Boundary conditions
+pbc                      = xyz
+; Initial velocities
+gen-vel                  = yes
+gen-temp                 = 305
+; Constraints
+lincs-order              = 6
+; Group restraints
+pull                     = yes
+pull-nstxout             = 0
+pull-nstfout             = 0
+pull-ncoords             = 1
+pull-ngroups             = 2
+pull-cylinder-r          = 1.5
+pull-group1-name         = Lig
+pull-group2-name         = Membrane
+pull-coord1-groups       = 2 1
+pull-coord1-type         = umbrella
+pull-coord1-geometry     = cylinder
+pull-coord1-vec          = 0 0 1
+pull-coord1-dim          = N N Y
+pull-coord1-start        = no
+pull-coord1-k            = 500
+pull-coord1-init         = 0.0
+
+; Colvars
+colvars-active           = no
+colvars-configfile       = 
