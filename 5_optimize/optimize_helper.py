@@ -162,7 +162,8 @@ def run_system_simulations(
             production_modifications["init-lambda-state"] = lambd
             production_modifications["couple-moltype"] = molecule_name
             production.modify_mdp(production_modifications)
-            production.submit_to_queue()
+            # production.submit_to_queue()
+            production.run("-nt 8 -pin on")
 
 
 def calculate_free_energy(system_directory: str, lambda_steps: int) -> float:

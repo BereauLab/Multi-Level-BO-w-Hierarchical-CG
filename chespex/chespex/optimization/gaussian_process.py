@@ -112,6 +112,7 @@ class GaussianProcess(gpytorch.models.ExactGP):
         number_of_test_points: int = 100,
         training_iterations: int = 5000,
         early_stop_const_iterations: int | None = 10,
+        fixed_lengthscale: float | None = None,
     ) -> None:
         """
         Fits the model to the provided training data.
@@ -122,6 +123,8 @@ class GaussianProcess(gpytorch.models.ExactGP):
         :param training_iterations: The number of training iterations.
         :param early_stopping_constant_iterations: The number of iterations after which
             to stop if the loss does not change. If None, the training will not stop early.
+        :param fixed_lengthscale: The fixed lengthscale value. If not None, the lengthscale
+            will be optimized using maximum likelihood estimation.
         """
         # Convert inputs to torch tensors
         train_inputs = _convert_to_tensor(train_inputs)
@@ -134,7 +137,7 @@ class GaussianProcess(gpytorch.models.ExactGP):
             return
         # Initialize MLL
         mll = gpytorch.mlls.ExactMarginalLogLikelihood(self.likelihood, self)
-        if self.fixed_lengthscale is None:
+        if self.fixed_lengthscale is None or fixed_lengthscale is None:
             # Evaluate lengthscales over the entire lengthscale interval to find a good
             # starting point for the gradient-based optimization
             test_lengthscales = np.logspace(
@@ -161,6 +164,11 @@ class GaussianProcess(gpytorch.models.ExactGP):
                 min_loss,
             )
             self.covar_module.lengthscale = best_lengthscale
+            self.covar_module.raw_lengthscale.requires_grad_(True)
+        elif fixed_lengthscale is not None:
+            # If a fixed lengthscale is provided, set it
+            self.covar_module.lengthscale = fixed_lengthscale
+            self.covar_module.raw_lengthscale.requires_grad_(False)
         # Initialize gradient optimizer
         optimizer = torch.optim.Adam(self.parameters(), lr=0.1)
         # Run iterative optimization

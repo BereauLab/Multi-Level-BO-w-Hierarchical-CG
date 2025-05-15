@@ -6,7 +6,7 @@ import argparse
 import numpy as np
 from pymongo import MongoClient
 from scipy.stats import norm
-from chespex.optimization.gaussian_process_fix_noise import GaussianProcess
+from chespex.optimization.gaussian_process import GaussianProcess
 from chespex.optimization.data_frame import Dataframe
 from gpytorch.constraints import Interval
 from optimize_helper import (
@@ -237,9 +237,11 @@ class MoleculeOptimization:
 
     def fit_model(self, data: Dataframe, level: int):
         # Fit GP for level 0
-        gp0 = GaussianProcess(lengthscale_constraint=Interval(0.01, 10), noise=1.28e-3)
+        gp0 = GaussianProcess(
+            lengthscale_constraint=Interval(0.01, 10), fixed_noise=1.28e-3
+        )
         gp0_np = GaussianProcess(
-            lengthscale_constraint=Interval(0.01, 10), noise=1.28e-3
+            lengthscale_constraint=Interval(0.01, 10), fixed_noise=1.28e-3
         )
         target0 = np.array(data["ddg", "level", 0])
         prior0 = np.array(data["prior", "level", 0])
@@ -262,7 +264,7 @@ class MoleculeOptimization:
         parent_latent_space = data["parent_latent_space", "level", 1]
         parent_prediction = gp0.predict(parent_latent_space).mean.numpy()
         parent_prediction += np.array(data["prior", "level", 1])
-        gp1 = GaussianProcess(Interval(0.05, gp0_np.lengthscale), noise=1.28e-3)
+        gp1 = GaussianProcess(Interval(0.05, gp0_np.lengthscale), fixed_noise=1.28e-3)
         if len(data.filter("level", 1)) > 10:
             gp1.fit(
                 data["latent_space", "level", 1],
@@ -294,7 +296,7 @@ class MoleculeOptimization:
         g_parent_prediction += np.array(data["prior", "level", 2])
         parent_latent_space = data["parent_latent_space", "level", 2]
         parent_prediction = gp1.predict(parent_latent_space).mean.numpy()
-        gp2 = GaussianProcess(Interval(0.005, gp1.lengthscale), noise=1.28e-3)
+        gp2 = GaussianProcess(Interval(0.005, gp1.lengthscale), fixed_noise=1.28e-3)
         if len(data.filter("level", 2)) > 10:
             gp2.fit(
                 data["latent_space", "level", 2],
@@ -303,9 +305,7 @@ class MoleculeOptimization:
         elif len(data.filter("level", 2)) > 0:
             gp2.fit(
                 data["latent_space", "level", 2],
-                data["ddg", "level", 2]
-                - parent_prediction
-                - g_parent_prediction,  # ???
+                data["ddg", "level", 2] - parent_prediction - g_parent_prediction,
                 fixed_lengthscale=gp1.lengthscale * 0.5,
             )
         stddev2 = 0

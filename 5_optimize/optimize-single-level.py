@@ -6,7 +6,7 @@ import logging
 import numpy as np
 from pymongo import MongoClient
 from scipy.stats import norm
-from chespex.optimization.gaussian_process_fix_noise import GaussianProcess
+from chespex.optimization.gaussian_process import GaussianProcess
 from chespex.optimization.data_frame import Dataframe
 from gpytorch.constraints import Interval
 from optimize_helper import (
@@ -98,7 +98,7 @@ def run_next_iteration():
     ### Fit gp ###
     gp = GaussianProcess(
         lengthscale_constraint=Interval(0.01, 10),
-        noise=1.28e-3,  # Corresponds to a std. dev. of approx. 0.05
+        fixed_noise=1.28e-3,  # Corresponds to a std. dev. of approx. 0.05
     )
     gp.fit(data["latent_space"], data["ddg"])
     lengthscale = gp.lengthscale
