@@ -19,6 +19,7 @@ dependencies = [
     "gpytorch",
     "networkx",
     "torch",
+    "torch_geometric",
     "matplotlib",
     "prettypyplot",
 ]

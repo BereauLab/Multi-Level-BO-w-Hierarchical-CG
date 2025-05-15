@@ -1,0 +1,22 @@
+-e ./chespex
+git+https://github.com/Tsjerk/Insane.git#egg=insane
+alchemlyb==2.1.0
+gpytorch==1.11
+ipython==8.20.0
+ipywidgets==8.1.1
+jupyter==1.0.0
+matplotlib==3.8.2
+networkx==3.0
+notebook==7.0.7
+numpy==1.26.3
+pandas==2.2.0
+prettypyplot==0.11.0
+pymbar==4.0.3
+pymongo==4.7.3
+pytest==8.1.1
+scikit-learn==1.4.0
+scipy==1.12.0
+seaborn==0.13.2
+torch==2.1.2
+torch_geometric==2.4.0
+tqdm==4.66.1
