@@ -15,6 +15,8 @@ If you find this work useful in your research, please consider citing:
   year = {2025},
 }
 ```
+### Tutorial
+The repository [Molecule Optimization w Hierarchical CG Tutorial](https://github.com/BereauLab/Molecule-Optimization-w-Hierarchical-CG-Tutorial) contains a tutorial notebook that explains multi-level Bayesian optimization and hierarchical coarse-graining for simple two-bead molecules in a water-hexane mixture.
 
 ## Overview
 
