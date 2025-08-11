@@ -1,18 +1,19 @@
 # Multi-level BO with Hierarchical Coarse-Graining
 
-This repository contains the source code for the paper **"Navigating Chemical Space: Multi-Level Bayesian Optimization with Hierarchical Coarse-Graining"**.
+This repository contains the source code for the paper **"[Navigating Chemical Space: Multi-Level Bayesian Optimization with Hierarchical Coarse-Graining](https://doi.org/10.1039/D5SC03855C)"**.
 
 ### Citing this work
 If you find this work useful in your research, please consider citing:
 
 ```bibtex
-@misc{Walter2025,
-  doi = {10.48550/ARXIV.2505.04169},
-  url = {https://arxiv.org/abs/2505.04169},
-  author = {Walter,  Luis J. and Bereau,  Tristan},
+@article{Walter2025,
   title = {Navigating Chemical Space: Multi-Level Bayesian Optimization with Hierarchical Coarse-Graining},
-  publisher = {arXiv},
-  year = {2025},
+  url = {http://dx.doi.org/10.1039/D5SC03855C},
+  DOI = {10.1039/d5sc03855c},
+  journal = {Chem. Sci.},
+  publisher = {The Royal Society of Chemistry},
+  author = {Walter,  Luis J. and Bereau,  Tristan},
+  year = {2025}
 }
 ```
 ### Tutorial
